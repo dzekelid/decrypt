@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=Decrypt&k=1:
+  /?Action=Decrypt:
     get:
       summary: ' Decrypt '
       description: Decrypts ciphertext
